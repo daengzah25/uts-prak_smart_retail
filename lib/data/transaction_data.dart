@@ -1,0 +1,68 @@
+import '../models/sale_transaction.dart';
+
+final List<SaleTransaction> transactionHistory = [
+  const SaleTransaction(
+    id: 'TRX-008',
+    date: '07 Okt 2026',
+    product: 'Monitor 24"',
+    qty: 1,
+    total: 1995000,
+    completed: false,
+  ),
+  const SaleTransaction(
+    id: 'TRX-007',
+    date: '06 Okt 2026',
+    product: 'Pulpen Gel (1 Box)',
+    qty: 5,
+    total: 225000,
+    completed: true,
+  ),
+  const SaleTransaction(
+    id: 'TRX-006',
+    date: '06 Okt 2026',
+    product: 'Mouse Wireless',
+    qty: 3,
+    total: 360000,
+    completed: true,
+  ),
+  const SaleTransaction(
+    id: 'TRX-005',
+    date: '05 Okt 2026',
+    product: 'Printer Inkjet',
+    qty: 1,
+    total: 1487500,
+    completed: true,
+  ),
+  const SaleTransaction(
+    id: 'TRX-004',
+    date: '05 Okt 2026',
+    product: 'Keyboard Mekanik',
+    qty: 2,
+    total: 900000,
+    completed: true,
+  ),
+  const SaleTransaction(
+    id: 'TRX-003',
+    date: '04 Okt 2026',
+    product: 'Laptop Slim 14"',
+    qty: 1,
+    total: 7650000,
+    completed: true,
+  ),
+  const SaleTransaction(
+    id: 'TRX-002',
+    date: '03 Okt 2026',
+    product: 'Kalkulator Ilmiah',
+    qty: 4,
+    total: 500000,
+    completed: true,
+  ),
+  const SaleTransaction(
+    id: 'TRX-001',
+    date: '02 Okt 2026',
+    product: 'Headset Kantor',
+    qty: 2,
+    total: 640000,
+    completed: true,
+  ),
+];
